@@ -1,0 +1,173 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 8px;
+}
+
+/* Cards */
+
+.card {
+  background-color: #eee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 20px 30px;
+}
+
+.cards-text {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin: 30px;
+}
+
+.card-heading {
+  margin-bottom: 15px;
+}
+
+/*Header*/
+
+.css-card {
+  background: blue;
+}
+
+.html-card {
+  background: #e75732;
+}
+
+.header-text {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.card-header {
+  margin-bottom: 20px;
+  color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.card-header:last-child {
+  margin-bottom: 0;
+}
+
+/* header text */
+.card-header-h2 {
+  margin-bottom: 10px;
+}
+
+.header-text-marked {
+  color: blue;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+/* Card_1 colors */
+
+.colors-list {
+  list-style: none;
+}
+
+.color-item {
+  margin-bottom: 8px;
+}
+
+.color-item:last-child {
+  margin-bottom: 0;
+}
+
+#color-id-1 {
+  color: coral;
+}
+#color-id-2 {
+  color: #e7e432;
+}
+#color-id-3 {
+  color: rgb(21, 64, 124);
+}
+#color-id-4 {
+  color: rgba(123, 234, 156, 0.8);
+}
+
+/* Crad_2 borders */
+
+.card-border {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  padding: 10px;
+  background-color: #e2e1e1;
+  display: inline-block;
+}
+
+.card-border:last-child {
+  margin-right: 0;
+}
+
+#card-border-1 {
+  border: 2px green solid;
+}
+#card-border-2 {
+  border-top: 3px solid red;
+  border-bottom: 6px solid red;
+  border-left: 9px solid red;
+  border-right: 1px solid red;
+}
+#card-border-3 {
+  border-radius: 10px 20px 4px 1px;
+  border: 3px dashed black;
+}
+
+/* card_3 table*/
+
+.table {
+  width: 100%;
+}
+.table-item {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.table tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+/* Card_04 links && buttons */
+
+.btn {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  font-family: inherit;
+  background-color: black;
+  display: block;
+}
+
+.btn:hover {
+  background-color: red;
+  color: yellow;
+}
+
+.input {
+  display: block;
+  border: none;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 7px 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.input:hover {
+  background-color: blue;
+
+}
