@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mainFont: #13143c;
+  --primary: #f17a37;
+  --gray: #dfdfdf;
+  --background: #fffaf2;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--mainFont);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header */
+
+.header {
+  margin-top: 41px;
+  margin-bottom: 71px;
+}
+
+.header-text {
+  color: var(--mainFont);
+  font-family: "Poppins", sans-serif;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 109px;
+}
+
+/* Card */
+
+.card {
+  width: 1051px;
+  padding: 42px;
+  border-radius: 29px;
+  background: var(--background);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Card info */
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.card-info--avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 39px;
+}
+
+.card-info--text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.card-info--text-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-info--text-user-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-ingo--text--description {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 289px;
+}
+
+.card-socials {
+  display: flex;
+  gap: 0 16px;
+}
+
+.card-socials-item {
+  padding: 16px;
+  border-radius: 19px;
+  border: 1px solid var(--gray);
+  background: #fff;
+}
+
+.card-socials-item > img {
+  width: 32px;
+}
+
+/* Card stats */
+
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.organizations {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.organizations-count {
+  display: flex;
+  gap: 16px;
+  width: 414px;
+}
+
+.organizations-count--text {
+  flex: 1 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.organizations-progress {
+  display: flex;
+}
+
+.field-progress {
+  border-radius: 10px 0px 0px 10px;
+  background: var(--primary);
+  width: 75%;
+  height: 13px;
+}
+
+.unfield-progress {
+  border-radius: 0px 10px 10px 0px;
+  background: var(--gray);
+  width: 25%;
+  height: 13px;
+}
+
+.follwers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.follwers-count {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.follwers-count--bold {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.followers-btn {
+  width: 191px;
+  padding: 19px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background: var(--mainFont);
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.4s, background 0.4s;
+}
+
+.btn-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.followers-btn:hover {
+  transition: color 0.4s, background 0.4s;
+  border: 3px solid var(--mainFont);
+  background: transparent;
+  color: var(--mainFont);
+}
